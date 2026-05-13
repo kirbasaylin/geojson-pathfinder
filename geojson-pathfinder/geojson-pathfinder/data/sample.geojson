@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "Main St segment 1"},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-83.0007, 39.9612], [-83.0001, 39.9620], [-82.9990, 39.9628]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Main St segment 2"},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-82.9990, 39.9628], [-82.9978, 39.9635]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "High St"},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-83.0001, 39.9620], [-82.9995, 39.9640], [-82.9988, 39.9655]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Crosslink"},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-82.9988, 39.9655], [-82.9978, 39.9635]]
+      }
+    }
+  ]
+}
